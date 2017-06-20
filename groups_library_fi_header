@@ -1,0 +1,32 @@
+<div id="s-lib-banner"  class="container s-lib-banner-public" >
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+
+      <a class="glyphicon glyphicon-home navbar-brand" href="http://lib.ulapland.fi/fi"></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="http://lib.ulapland.fi/kirjasto/lainaajalle">Lainaajalle</a></li>
+      <li><a href="http://lib.ulapland.fi/kirjasto/tiedonhakijalle">Tiedonhakijalle</a></li>
+      <li><a href="http://lib.ulapland.fi/kirjasto/tutkijalle">Tutkijalle</a></li>
+	  <li><a href="http://lib.ulapland.fi/kirjasto/kirjoittajalle">Kirjoittajalle ja toimittajalle</a></li>
+	  
+    </ul>
+<form class="navbar-form navbar-right" action="https://luc.finna.fi/ulapland/Search/Results" method="get"name="finna_haku"  role="search" target="_blank">
+  <div class="input-group">
+    <input type="text" class="form-control" placeholder="Hae LUC-Finnasta" name="lookfor">
+    <div class="input-group-btn">
+      <button class="btn btn-default" type="submit">
+        <i class="glyphicon glyphicon-search"></i>
+      </button>
+    </div>
+  </div>
+</form>
+<ul class="nav navbar-nav navbar-right">
+      <li><a href="http://lib.ulapland.fi/en"> In English</a></li>
+      </ul>	
+  </div>
+</nav>
+                                        <a href="http://lib.ulapland.fi/fi" title="" target="" aria-hidden="true" tabindex="-1" ><img alt="Banner Image" usemap="#headermap" name="s-lib-banner-img" id="s-lib-banner-img" class="img-responsive" src="https://libapps-eu.s3.amazonaws.com/accounts/4493/images/LUC_LaY_logot_banneri.jpg" aria-hidden="true" tabindex="-1" /></a>
+
+                         </div>
