@@ -1,0 +1,509 @@
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+<style>
+  body {
+        line-height: 1.4;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: white;
+        padding-top: 50px;
+        font-family: "Gudea", Arial, Verdana, sans-serif;
+        font-size: 15px;
+        color: 595959 
+    }
+#s-lib-banner-img {
+    width: initial;
+}
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+
+    max-width: initial;
+
+}
+.s-lg-rss-links {
+display: none;
+}
+
+span.s-lg-rss-date {
+display: none;
+}
+
+
+
+
+@media (max-width: 767px) { 
+    .navbar{
+        display:none;
+    }
+body{
+        text-align: justify;
+    }
+}
+
+#s-lg-box-14343121.s-lib-box .s-lib-box-title {
+   display: none;
+}
+#s-lg-box-14332233.s-lib-box .s-lib-box-title {
+   display: none;
+}
+
+
+#s-lg-tabs-container  {
+ line-height: 1.4;
+}
+
+#s-lg-box-14343121.s-lib-box .s-lib-box-content{
+   font-size: small;
+    line-height: 1.4;
+}
+#s-lg-box-14332233.s-lib-box .s-lib-box-content{
+   font-size: small;
+    line-height: 1.4;
+}
+
+.panel-default {
+    border-width: 0;
+}
+
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    font-size: 0.95em;
+    font-weight: 500;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #ffff;
+    font-weight: bold;
+}
+
+.s-lib-box .s-lib-box-title {
+font-size: medium;
+}
+
+
+.searchform div {
+height: 26px;
+width: 193px;
+}
+
+.searchboxwrapper {
+position: relative;
+}
+
+#s-lib-bc-customer  { display: none; }
+#s-lib-bc-group  { display: none; }
+
+#s-lib-bc-site  { display: none; }
+#s-lib-bc-guide { display: none; }
+
+
+#.s-lib-header h1 { display: none; }
+#s-lib-public-header-title { display: none; }
+#s-lg-guide-header-search { display: none; }
+
+.searchbox {
+border: 1px solid #dadada;
+outline: none;
+font: 11px 'gudea', sans-serif;
+color: #777;
+width: 182px;
+height: 29px;
+background: #fff;
+padding-left: 10px;
+}
+
+.searchsubmit {
+font-family: 'FontAwesome';
+width: 29px;
+height: 29px;
+border: 1px solid #dadada;
+font-size: 12px;
+position: absolute;
+top: 0;
+right: 0;
+background: #dadada;
+border: none;
+color: #5d3250;
+cursor: hand; cursor: pointer;
+}
+
+.s-lib-box {
+ border-color: #cccccc;
+ border-width: 0px;
+ box-shadow: 0px 0px 0px 0px #AAAAAA;
+ border-radius: 0px 0px 0px 0px;
+ background-color: #fff;
+}
+
+.s-lib-box .s-lib-box-title {
+font-variant: all-small-caps;
+letter-spacing: 1px;
+padding-bottom: 4px;
+}
+
+
+.s-lib-header h1 { display: none; }
+div#s-lg-guide-desc-container { display: none; }
+#s-lib-bc { display: none; }
+#s-lg-guide-tabs-title-bar { display: none; }
+ .s-lib-footer { display: none; } 
+
+.navbar {
+    position: fixed;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}
+
+#s-lg-box-14309266.s-lib-box  {
+padding: 10px;
+   background-color: #f8f8f8;
+}
+#s-lg-box-14309266.s-lib-box  a{
+color:#777!important;
+}
+
+.s-lib-main {
+padding-top: 0px;
+}
+.pad-top-med {
+padding-top: 15px;
+}
+/*------------------------------Homepage Boxes CSS---------------------------------------*/
+.homepageBox1, .homepageBox2, .homepageBox3, .homepageBox4, .subpageBox {
+text-align: center;
+color: #fff;
+font-weight: bold;
+border-radius: 0px;
+cursor: pointer;
+}
+.homepageBox1 {
+background-color: #cbd33a;
+}
+.homepageBox2 {
+background-color: #01bce5; 
+text-decoration: none;
+}
+.homepageBox3 {
+background-color: #f07900;
+}
+.homepageBox4 {
+background-color: #d24385;
+}
+
+.homepageBox4 {
+ overflow: hidden; 
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.homepageBox1:hover {
+   background-color: #a7b229;
+}
+.homepageBox2:hover {
+   background-color: #027994;
+}
+.homepageBox3:hover {
+   background-color: #e85600;
+}
+.homepageBox4:hover {
+   background-color: #bb255d;
+}
+#s-lg-box-14343115 a {
+text-decoration: none;
+}
+
+
+/*------------------------------End Homepage Boxes CSS---------------------------------------*/
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: black; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+</style>
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 80|| document.documentElement.scrollTop > 80) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Chrome, Safari and Opera 
+    document.documentElement.scrollTop = 0; // For IE and Firefox
+}
+
+</script><link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+<style>
+  body {
+        line-height: 1.4;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: white;
+        padding-top: 50px;
+        font-family: "Gudea", Arial, Verdana, sans-serif;
+        font-size: 15px;
+        color: 595959 
+    }
+#s-lib-banner-img {
+    width: initial;
+}
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+
+    max-width: initial;
+
+}
+.s-lg-rss-links {
+display: none;
+}
+
+span.s-lg-rss-date {
+display: none;
+}
+
+
+
+
+@media (max-width: 767px) { 
+    .navbar{
+        display:none;
+    }
+body{
+        text-align: justify;
+    }
+}
+
+#s-lg-box-14343121.s-lib-box .s-lib-box-title {
+   display: none;
+}
+#s-lg-box-14332233.s-lib-box .s-lib-box-title {
+   display: none;
+}
+
+
+#s-lg-tabs-container  {
+ line-height: 1.4;
+}
+
+#s-lg-box-14343121.s-lib-box .s-lib-box-content{
+   font-size: small;
+    line-height: 1.4;
+}
+#s-lg-box-14332233.s-lib-box .s-lib-box-content{
+   font-size: small;
+    line-height: 1.4;
+}
+
+.panel-default {
+    border-width: 0;
+}
+
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    font-size: 0.95em;
+    font-weight: 500;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #ffff;
+    font-weight: bold;
+}
+
+.s-lib-box .s-lib-box-title {
+font-size: medium;
+}
+
+
+.searchform div {
+height: 26px;
+width: 193px;
+}
+
+.searchboxwrapper {
+position: relative;
+}
+
+#s-lib-bc-customer  { display: none; }
+#s-lib-bc-group  { display: none; }
+
+#s-lib-bc-site  { display: none; }
+#s-lib-bc-guide { display: none; }
+
+
+#.s-lib-header h1 { display: none; }
+#s-lib-public-header-title { display: none; }
+#s-lg-guide-header-search { display: none; }
+
+.searchbox {
+border: 1px solid #dadada;
+outline: none;
+font: 11px 'gudea', sans-serif;
+color: #777;
+width: 182px;
+height: 29px;
+background: #fff;
+padding-left: 10px;
+}
+
+.searchsubmit {
+font-family: 'FontAwesome';
+width: 29px;
+height: 29px;
+border: 1px solid #dadada;
+font-size: 12px;
+position: absolute;
+top: 0;
+right: 0;
+background: #dadada;
+border: none;
+color: #5d3250;
+cursor: hand; cursor: pointer;
+}
+
+.s-lib-box {
+ border-color: #cccccc;
+ border-width: 0px;
+ box-shadow: 0px 0px 0px 0px #AAAAAA;
+ border-radius: 0px 0px 0px 0px;
+ background-color: #fff;
+}
+
+.s-lib-box .s-lib-box-title {
+font-variant: all-small-caps;
+letter-spacing: 1px;
+padding-bottom: 4px;
+}
+
+
+.s-lib-header h1 { display: none; }
+div#s-lg-guide-desc-container { display: none; }
+#s-lib-bc { display: none; }
+#s-lg-guide-tabs-title-bar { display: none; }
+ .s-lib-footer { display: none; } 
+
+.navbar {
+    position: fixed;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}
+
+#s-lg-box-14309266.s-lib-box  {
+padding: 10px;
+   background-color: #f8f8f8;
+}
+#s-lg-box-14309266.s-lib-box  a{
+color:#777!important;
+}
+
+.s-lib-main {
+padding-top: 0px;
+}
+.pad-top-med {
+padding-top: 15px;
+}
+/*------------------------------Homepage Boxes CSS---------------------------------------*/
+.homepageBox1, .homepageBox2, .homepageBox3, .homepageBox4, .subpageBox {
+text-align: center;
+color: #fff;
+font-weight: bold;
+border-radius: 0px;
+cursor: pointer;
+}
+.homepageBox1 {
+background-color: #cbd33a;
+}
+.homepageBox2 {
+background-color: #01bce5; 
+text-decoration: none;
+}
+.homepageBox3 {
+background-color: #f07900;
+}
+.homepageBox4 {
+background-color: #d24385;
+}
+
+.homepageBox4 {
+ overflow: hidden; 
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.homepageBox1:hover {
+   background-color: #a7b229;
+}
+.homepageBox2:hover {
+   background-color: #027994;
+}
+.homepageBox3:hover {
+   background-color: #e85600;
+}
+.homepageBox4:hover {
+   background-color: #bb255d;
+}
+#s-lg-box-14343115 a {
+text-decoration: none;
+}
+
+
+/*------------------------------End Homepage Boxes CSS---------------------------------------*/
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: black; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+</style>
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 80|| document.documentElement.scrollTop > 80) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Chrome, Safari and Opera 
+    document.documentElement.scrollTop = 0; // For IE and Firefox
+}
+
+</script>
